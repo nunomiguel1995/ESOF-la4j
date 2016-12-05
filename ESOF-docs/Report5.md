@@ -10,6 +10,8 @@
 
 ##Software maintainability  <a name="Maint"></a>
 
+[![BCH compliance](https://bettercodehub.com/edge/badge/nunomiguel1995/ESOF-la4j)](https://bettercodehub.com)
+
 ##Evolution process  <a name="Evolution"></a>
 
 ##Pull Request  <a name="Pull"></a>
