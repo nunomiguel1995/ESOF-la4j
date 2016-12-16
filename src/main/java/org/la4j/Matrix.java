@@ -693,8 +693,7 @@ public abstract class Matrix implements Iterable<Double> {
      * @return a matrix with the parameter inserted into it
      */
     public Matrix insert(Matrix that) {
-		int[] data = {0, 0, 0, 0};
-        return insert(that, data, that.rows(), that.columns());
+        return insert(that, 0, 0, 0, 0, that.rows(), that.columns());
     }
     
     /**
@@ -707,8 +706,7 @@ public abstract class Matrix implements Iterable<Double> {
      * @return a matrix with the parameter inserted into it
      */
     public Matrix insert(Matrix that, int rows, int columns) {
-		int[] data = {0, 0, 0, 0};
-        return insert(that, data, rows, columns);
+        return insert(that, 0, 0, 0, 0, rows, columns);
     }
 
     /**
@@ -723,8 +721,7 @@ public abstract class Matrix implements Iterable<Double> {
      * @return a matrix with the parameter inserted into it
      */
     public Matrix insert(Matrix that, int destRow, int destColumn, int rows, int columns) {
-		int[] data = {0, 0, destRow, destColumn};
-        return insert(that, data, rows, columns);
+        return insert(that, 0, 0, destRow, destColumn, rows, columns);
     }
 
     /**
@@ -740,12 +737,7 @@ public abstract class Matrix implements Iterable<Double> {
      * @param columns number of columns to insert
      * @return a matrix with the parameter inserted into it
      */
-    public Matrix insert(Matrix that,int[] data, int rows, int columns) {
-		int srcRow = data[0];
-		int srcColumn = data[1];
-		int destRow = data[2];
-		int destColumn = data[3];
-		
+    public Matrix insert(Matrix that, int srcRow, int srcColumn, int destRow, int destColumn, int rows, int columns) {
         if (rows < 0 || columns < 0) {
             fail("Cannot have negative rows or columns: " + rows + "x" + columns);
         }
