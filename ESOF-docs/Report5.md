@@ -8,6 +8,8 @@
 
 ##Introduction  <a name="Intro"></a>
 
+In this report we tried to discuss about software maintainability and evolution process of la4j. Software maintainability is defined as the degree to which an application is understood, repaired, or enhanced. Software maintainability is important because it is approximately 75% of the cost related to a project.And software evolution is the term used in software engineering (specifically software maintenance) to refer to the process of developing software initially, then repeatedly updating it for various reasons.
+
 ##Software maintainability  <a name="Maint"></a>
 
 |SIG metric 	| Description
