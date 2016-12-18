@@ -34,9 +34,10 @@ By using the SIG metrics, we can establish if a given software is easy or hard t
 |Automate tests             	| automated testing makes development foreseeable and less dangerous
 |Write clean code             |clean code makes a maintainable software 
 
-[![BCH compliance](https://bettercodehub.com/edge/badge/nunomiguel1995/ESOF-la4j)](https://bettercodehub.com)
 
 To test la4j SIG metrics it was used Better Code Hub at https://bettercodehub.com where the project score a three out of ten. This is not a good grade, since it means that this software it is going to be hard to maintain and it will affect its quality. The only metric that la4j follows are couple architecture components loosely, a small codebase and clean code. Next follows the link to the Better Code Hub analysis.
+
+[![BCH compliance](https://bettercodehub.com/edge/badge/nunomiguel1995/ESOF-la4j)](https://bettercodehub.com)
 
 ##Evolution process  <a name="Evolution"></a>
 
