@@ -41,5 +41,14 @@ To test la4j SIG metrics it was used Better Code Hub at https://bettercodehub.co
 
 ##Evolution process  <a name="Evolution"></a>
 
+Evolution is a stage that is present throughout all the system’s life cycle, in which it is developing and changing as new requirements are propose and implemented into the system.
+
+No software stays unchangeable since it always needs to adapt to new requirements emerging, business environment changes, errors that need to be repaired and so on. Organizations spend the majority of the software investment, time and effort to maintain and evolve software, rather than creating new systems, since it will impact its business value. La4j is an open project with no economic interest, however the ability to evolve it’s crucial to its success.
+
+Change identification and evolution continues throughout the system lifetime. Proposals for change are the drivers for the system evolution, they require the link with components that are going to be affected by the change, thus allowing the estimation of the cost and impact. The next stage it’s change implementation, which brings the major problem of software evolution and maintenance: program understanding. In other words, to successfully change the software and implement new feature we need to understand how the program is structured, how it delivers functionality and how the proposed change might affect the program. However, sometimes this could be a very hard task, especially if the system developers are not responsible for the change implementation.  A well organized, simple and well documented code will always make this task easier.
+
+
 ##Pull Request  <a name="Pull"></a>
+
+https://github.com/vkostyukov/la4j/pull/284
 
